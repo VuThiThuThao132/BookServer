@@ -6,7 +6,7 @@ const cors = require("cors");
 const authRouter = require("./routes/auth");
 const postRouter = require("./routes/post");
 
-const url = "mongodb://127.0.0.1:27017/Tour";
+const url = "mongodb+srv://thaovttse150319:thao@cluster0.bcufsof.mongodb.net/Tour?retryWrites=true&w=majority";
 
 const connectDB = async () => {
   try {
